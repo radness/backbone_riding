@@ -2,13 +2,13 @@
 <html lang="en">
     <head> 
         <meta charset="UTF-8"/> 
-        <title>Backbone.js Bicycle Riding for Dowon</title>
+        <title>Backbone.js Bicycle Riding</title>
         <link rel="stylesheet" href="css/screen.css">
     </head>
     <body>
         <div id="rides">
             <div class="rideContainer">
-                <img src="img/my_cycle.png"/>
+                <!-- <img src="img/INZI_01.png"/> -->
                 <ul>
                     <li>Title</li>
                     <li>Rider</li>
@@ -16,10 +16,22 @@
                     <li>Keywords</li>
                 </ul>
             </div>
+        
+            <script id="rideTemplate" type="text/template">
+                <img src="<%= coverImage %>"/>
+                <ul>
+                    <li><%= title %></li>
+                    <li><%= rider %></li>
+                    <li><%= ridingDate %></li>
+                    <li><%= keywords %></li>
+                </ul>
+            </script>
         </div>
-        <script src="js/jquery.js"></script>
-        <script src="js/underscore.js"></script>
-        <script src="js/backbone.js"></script>
+
+        <script src="js/node_modules/jquery/dist/jquery.js"></script>
+        <script src="js/node_modules/underscore/underscore.js"></script>
+        <script src="js/node_modules/backbone/backbone.js"></script>
         <script src="js/ride.js"></script>
+        
     </body>
 </html>
