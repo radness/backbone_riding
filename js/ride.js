@@ -72,14 +72,15 @@
                 that.renderRide(item);
             }, this);
         },
-
         //RideView를 통해 개별적으로 렌더링한다
+
         renderRide: function (item) {
             var rideView = new RideView({
                 model: item
             });
             this.$el.append(rideView.render().el);
         }
+
     });
 
     //new를 하면 initalize()가 자동적으로 호출된다
