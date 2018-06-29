@@ -1,17 +1,17 @@
-body { background-color: #f4f4f4; }
+body { background-color: #eee; }
 
-.rideContainer { 
+.bookContainer { 
     border: 0px solid #aaa; 
     width: 350px; 
     height: 170px; 
     background-color: #ffffff; 
     float: left; margin: 10px;
  }
-.rideContainer img { 
+.bookContainer img { 
     float: left; 
     margin: 20px; 
 }
-.rideContainer ul { 
+.bookContainer ul { 
     list-style-type: none; 
 }
 
