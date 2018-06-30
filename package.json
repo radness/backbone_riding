@@ -1,0 +1,28 @@
+{
+  "name": "backbone-library",
+  "version": "0.0.1",
+  "description": "A simple library application using Backbone",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+
+  "dependencies": {
+    "express": "~3.1.0",
+    "path": "~0.4.9",
+    "mongoose": "~3.5.5"
+  },
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radness/backbone_riding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radness/backbone_riding/issues"
+  },
+  "homepage": "https://github.com/radness/backbone_riding#readme"
+}
