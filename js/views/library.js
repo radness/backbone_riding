@@ -5,7 +5,8 @@ app.LibraryView = Backbone.View.extend({
 
 	initialize: function() {
 		this.collection = new app.Library();
-		this.collection.fetch();
+		//DB에서 라이브러리로 데이터를 채운다.
+		this.collection.fetch({reset: true});
 		this.render();
 
 		this.listenTo( this.collection, 'add', this.renderBook );
